@@ -1,10 +1,10 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .header-top {
@@ -238,7 +238,7 @@ html,body
   margin-right: auto;
 }
 
-.section-title.text-center > p {
+.section-title.text-center>p {
   color: #333333;
   font-size: 15px;
   margin-top: 10px;
@@ -246,28 +246,28 @@ html,body
   text-align: center;
 }
 
-.volunteer-1{
+.volunteer-1 {
   float: left;
   position: relative;
   left: 7em;
   top: 2em;
 }
 
-.volunteer-2{
+.volunteer-2 {
   float: left;
   position: relative;
   left: 12em;
   top: 2em;
 }
 
-.volunteer-3{
+.volunteer-3 {
   float: left;
   position: relative;
   left: 21em;
   top: -26.35em;
 }
 
-.volunteer-4{
+.volunteer-4 {
   float: left;
   position: relative;
   left: 38em;
@@ -277,14 +277,16 @@ html,body
 .volunteer-title.text-center {
   margin-top: 0;
 }
-.volunteer-title.text-center > h5 {
+
+.volunteer-title.text-center>h5 {
   color: #444444;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   margin-bottom: 0;
   text-align: center;
 }
-.volunteer-title.text-center > p {
+
+.volunteer-title.text-center>p {
   color: #444444;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -292,4 +294,86 @@ html,body
   text-align: center;
 }
 
+.people-say-bg {
+  position: relative;
+  top: -25em;
+}
 
+.single-people {
+  margin: auto;
+  width: 55%;
+}
+
+.people-say-title {
+  position: relative;
+  top: -54em;
+}
+
+.people-say-title>h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.people-say-image {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 15px;
+  position: relative;
+  top: -50em;
+  left: 8.5em;
+  text-align: center;
+}
+
+.people-say-image>img {
+  border: 2px solid #0aaaa0;
+  border-radius: 100%;
+  height: 115px;
+  width: 115px;
+}
+
+.people-say-text {
+  position: relative;
+  top: -49em;
+  left: 8.5em;
+  text-align: center;
+}
+
+.people-say-text.text-center>p {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.people-say-text.text-center>h5 {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  margin-top: 23px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.people-say-text h6 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.people-say-slide .owl-controls .owl-buttons {
+  margin-top: inherit;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.icon-left-open {
+  font-size: 30px;
+}
+
+.icon-right-open {
+  font-size: 30px;
+}
