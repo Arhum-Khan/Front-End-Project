@@ -246,32 +246,21 @@ body {
   text-align: center;
 }
 
-.volunteer-1 {
+.volunteer {
   float: left;
-  position: relative;
-  left: 7em;
-  top: 2em;
+  width: 20%;
+  padding: 1em;
 }
 
-.volunteer-2 {
-  float: left;
+.row-our-volunteers {
   position: relative;
-  left: 12em;
-  top: 2em;
+  left: 5em;
 }
 
-.volunteer-3 {
-  float: left;
-  position: relative;
-  left: 21em;
-  top: -26.35em;
-}
-
-.volunteer-4 {
-  float: left;
-  position: relative;
-  left: 38em;
-  top: 2em;
+.row-our-volunteers::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .volunteer-title.text-center {
@@ -292,6 +281,11 @@ body {
   font-size: 14px;
   margin: 0;
   text-align: center;
+}
+
+.people-says-area {
+  position: relative;
+  top: 25em;
 }
 
 .people-say-bg {
@@ -365,15 +359,21 @@ body {
 
 .people-say-slide .owl-controls .owl-buttons {
   margin-top: inherit;
-  position: absolute;
   top: 30%;
   width: 100%;
+  color: white;
 }
 
 .icon-left-open {
   font-size: 30px;
+  position: relative;
+  top: -34em;
+  left: 5em;
 }
 
 .icon-right-open {
   font-size: 30px;
+  position: relative;
+  top: -35.15em;
+  left: 40em;
 }
