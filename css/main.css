@@ -7,6 +7,14 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .header-top {
   list-style-type: none;
   overflow: hidden;
@@ -355,6 +363,9 @@ body {
 .people-say-text h6 {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
 }
 
 .people-say-slide .owl-controls .owl-buttons {
@@ -375,5 +386,217 @@ body {
   font-size: 30px;
   position: relative;
   top: -35.15em;
-  left: 40em;
+  left: 45em;
+}
+
+.footer-top {
+  background: #232323;
+  position: relative;
+  top: -26em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.footer-widget-title>h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-widget-title>h3::after {
+  background: #0aaac0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 140%;
+  width: 30px;
+}
+
+.widget-about-content>p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  word-wrap: break-word;
+  width: 26em;
+  margin-top: 3em;
+}
+
+.widget-contact-content>h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.widget-contact-content>a {
+  color: #fff;
+  display: block;
+  line-height: 25pt;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.widget-contact-content>p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.footer-widget.widget-two li::after {
+  color: #fff;
+  content: "\f105";
+  font-family: fontawesome;
+  left: 0;
+  position: absolute;
+  padding-left: 15px;
+}
+
+.footer-widget.widget-two a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-widget.widget-two li {
+  margin-bottom: 12px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.footer-widget.widget-two li:hover::after {
+  color: #0E9CB1;
+}
+
+.footer-widget.widget-two a:hover {
+  color: #0E9CB1;
+}
+
+.footer-widget.widget-three li::after {
+  color: #fff;
+  content: "\f105";
+  font-family: fontawesome;
+  left: 0;
+  position: absolute;
+  padding-left: 15px;
+}
+
+.footer-widget.widget-three a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-widget.widget-three li {
+  margin-bottom: 12px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.footer-widget.widget-three li:hover::after {
+  color: #0E9CB1;
+}
+
+.footer-widget.widget-three a:hover {
+  color: #0E9CB1;
+}
+
+.newsletter {
+  margin-top: 39px;
+}
+
+.newsletter input {
+  border: medium none;
+  border-radius: 2px 0 0 2px;
+  padding: 5px 10px;
+}
+
+.newsletter button {
+  background: #0aaaa0 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 2px 2px 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: -5px;
+  padding: 5px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 45px;
+}
+
+.newsletter button:hover {
+  opacity: 0.8;
+}
+
+.footer-bottom {
+  background: #191919;
+  padding: 16px 0;
+  position: relative;
+  top: -60em;
+}
+
+.footer-social {
+  float: right;
+  position: relative;
+  top: -2.5em;
+  left: -12em;
+}
+
+.copyright>p {
+  color: #eee;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: -0.5em;
+  left: 5em;
+}
+
+.copyright>p a {
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-social ul li {
+  display: inline;
+  padding: 0 7.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-social ul li a {
+  color: #eee;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-widget.widget-one {
+  position: relative;
+  top: 3em;
+  left: 5em;
+}
+
+.footer-widget.widget-two {
+  position: relative;
+  top: -14em;
+  left: 29em;
+}
+
+.footer-widget.widget-three {
+  position: relative;
+  top: -29.3em;
+  left: 47em;
+}
+
+.footer-widget.widget-four {
+  position: relative;
+  top: -44.5em;
+  left: 63em;
 }
