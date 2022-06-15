@@ -1,96 +1,121 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .header-top {
   list-style-type: none;
-  margin: -0.625em;
   overflow: hidden;
   background-color: #0aaaa0;
-  position: relave;
-  }
-  .social ul li {
-    float: left;
-    padding: 0 7.5px;
-    list-style-type: none; 
-    vertical-align: center;
-    position: relative;
-    left: 10em;
-  }
-  .social ul li:first-child {
-    padding-left: 0;
-  }
-  .social ul li a {
-    font-family: sans-serif;
-    font-size: 12px;
-    color: #fff;
-  }
-  .call {
-    float: right;
-    position: relative;
-    right: 10em;
-    top: -14px;
-  }
-  .call > ul {
-    float: right;
-  }
-  .call ul li {
-    float: left;
-    list-style-type: none;
-    vertical-align: center;
-  }
-  .call ul li:last-child {
-    float: right;
-  }
-  .call ul li a {
-    font-size: 12px;
-    padding: 0 10px;
-    color: #fff;
-    font-family: sans-serif;
-  }
-  .call ul li a i {
-    margin-right: 7px;
-  }
-  .call ul li:last-child a{
-    padding-right: 0px;
-  }
-  .call ul li:last-child a i{
-    margin-right: 0;
-  }
+  position: relative;
+  width: 100%;
+}
+
+.main-menu-area {
+  width: 100%;
+}
+
+.social ul li {
+  float: left;
+  padding: 0 7.5px;
+  list-style-type: none;
+  vertical-align: center;
+  position: relative;
+  left: 10em;
+}
+
+.social ul li:first-child {
+  padding-left: 0;
+}
+
+.social ul li a {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+.call {
+  float: right;
+  position: relative;
+  right: 10em;
+  top: -14px;
+}
+
+.call>ul {
+  float: right;
+}
+
+.call ul li {
+  float: left;
+  list-style-type: none;
+  vertical-align: center;
+}
+
+.call ul li:last-child {
+  float: right;
+}
+
+.call ul li a {
+  font-size: 12px;
+  padding: 0 10px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.call ul li a i {
+  margin-right: 7px;
+}
+
+.call ul li:last-child a {
+  padding-right: 0px;
+}
+
+.call ul li:last-child a i {
+  margin-right: 0;
+}
 
 .logo {
-    display: inline-block;
-    position: relative;
-    top: 1em;
-    left: 10.5em;
-    padding: 20px;
-    float: left;
-  }
+  display: inline-block;
+  position: relative;
+  top: 1em;
+  left: 10.5em;
+  padding: 20px;
+  float: left;
+}
 
-  .main-menu ul {
-    list-style-type: none;
-    margin: 1em;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    position: relative;
-    top: 3.2em;
-    left: 15em;
-  }
-  
-  .main-menu li {
-    float: left;
-  }
-  
- .main-menu li a {
-    display: block;
-    color: #444;
-    font-family: "Raleway",sans-serif;
-    font-size: 14px;
-    text-align: center;
-    padding: 0 2em;
-    text-decoration: none;
-  }
-  
- .main-menu li a:hover {
-    background-color: #111111;
-  }
+.main-menu ul {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  top: 3.2em;
+  left: 15em;
+}
+
+.main-menu li {
+  float: left;
+}
+
+.main-menu li a {
+  display: block;
+  color: #444;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 2em;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  background-color: #111111;
+}
 
 .donate>a {
   background: #0aaaa0;
@@ -99,7 +124,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: bold;
   padding: 10px 15px;
@@ -109,6 +134,81 @@
   left: 75em;
 }
 
-  
- 
+.banner {
+  margin: -10px;
+  position: relative;
+  top: 2em;
+}
 
+.caption {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: -9em;
+  left: 7em;
+  margin: 0 0 15px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.2;
+}
+
+.caption-desc {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-top: 18px;
+  position: relative;
+  top: -24em;
+  left: 19em;
+  width: 45%;
+}
+
+.arrows {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 30px;
+  color: #fff;
+}
+
+.arrow-left {
+  position: relative;
+  top: -15em;
+  left: 7em;
+}
+
+.arrow-right {
+  position: relative;
+  top: -15em;
+  left: 42em;
+}
+
+.btn-donate {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: raleway;
+  font-size: 13.5px;
+  font-weight: bold;
+  padding: 10px 12px;
+  margin: 0px 15px 0px 0px;
+  border-radius: 4px;
+  position: relative;
+  top: -27em;
+  left: 18em;
+  text-decoration: none;
+}
+
+.btn-learn {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: raleway;
+  font-size: 13.5px;
+  font-weight: bold;
+  padding: 10px 12px;
+  margin: 0px 15px 0px 0px;
+  border-radius: 4px;
+  position: relative;
+  top: -27em;
+  left: 18em;
+  text-decoration: none;
+}
