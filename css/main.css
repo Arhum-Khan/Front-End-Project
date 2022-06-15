@@ -249,12 +249,12 @@ body {
 .volunteer {
   float: left;
   width: 20%;
-  padding: 1em;
+  padding: .5em;
 }
 
 .row-our-volunteers {
   position: relative;
-  left: 5em;
+  left: 8.5em;
 }
 
 .row-our-volunteers::after {
@@ -317,7 +317,7 @@ body {
   padding-bottom: 15px;
   position: relative;
   top: -50em;
-  left: 8.5em;
+  left: 12.5em;
   text-align: center;
 }
 
@@ -331,7 +331,7 @@ body {
 .people-say-text {
   position: relative;
   top: -49em;
-  left: 8.5em;
+  left: 12.5em;
   text-align: center;
 }
 
