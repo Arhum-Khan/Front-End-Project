@@ -45,6 +45,7 @@ ul {
   width: 100%;
   position: relative;
   top: -3em;
+  z-index: 2
 }
 
 .social ul li {
