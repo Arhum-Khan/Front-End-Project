@@ -490,7 +490,7 @@ ul {
   font-family: fontawesome;
   left: 0;
   position: absolute;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .footer-widget.widget-two a {
@@ -518,7 +518,7 @@ ul {
   font-family: fontawesome;
   left: 0;
   position: absolute;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .footer-widget.widget-three a {
@@ -589,7 +589,7 @@ ul {
   font-family: 'Roboto', sans-serif;
   position: relative;
   top: -0.5em;
-  left: 5em;
+  left: 12em;
 }
 
 .copyright>p a {
@@ -613,13 +613,13 @@ ul {
 .footer-widget.widget-one {
   position: relative;
   top: 3em;
-  left: 5em;
+  left: 11em;
 }
 
 .footer-widget.widget-two {
   position: relative;
   top: -14em;
-  left: 29em;
+  left: 32em;
 }
 
 .footer-widget.widget-three {
@@ -632,6 +632,14 @@ ul {
   position: relative;
   top: -44.5em;
   left: 63em;
+}
+
+.footer-widget.widget-two > .footer-widget-title {
+  margin-left: 2.4em;
+}
+
+.footer-widget.widget-three > .footer-widget-title {
+  margin-left: 2.4em;
 }
 
 .body-full {
