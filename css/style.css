@@ -142,7 +142,7 @@ ul {
 }
 
 .main-menu li a:hover {
-  background-color: #111111;
+  color: #0aaaa0;
 }
 
 .donate>a {
@@ -156,10 +156,17 @@ ul {
   font-size: 14px;
   font-weight: bold;
   padding: 10px 15px;
+  border: 0.1em solid #0aaaa0;
   text-transform: uppercase;
   position: relative;
   top: 0.5em;
   left: 75em;
+}
+
+.donate>a:hover {
+  background-color: white;
+  color: #0aaaa0;
+  border-color: #0aaaa0;  
 }
 
 .banner {
